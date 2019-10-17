@@ -1,0 +1,81 @@
+version: "2"
+services:
+  common: {baseip: 10.58.122.66, port: 9003, xgfaceaddr: 10.58.122.61:50000, deadline: 5 }
+  case:
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./
+  - name: "homey"
+    mysql: { host: "127.0.0.1:3306", user: "root", password: "123456", database: "wz", gormlogmode: false }
+    redis: { host: "10.58.122.66:6379", user: "root", password: "" }
+    staff: 
+      defaultlibrary: ["工作人员"]
+      xgindexaddr: 10.58.122.61:50002
+      staffhold: 0.65 #人员库查找的阈值
+      imgbasepath: G:/工作目录/homey2.2  # 图片保存的路径前缀  /home1/image
+      accessbasepath: /cameraimages  # 图片外部访问的路径前缀
+      facefilepath: /camera/facefile/    #人员图片保存的路径
+      peopleimgpath: /staff/   #人员的xlsx保存在这里 ./

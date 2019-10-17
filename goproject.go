@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"goproject/handler"
 	"net/http"
 
@@ -8,6 +9,12 @@ import (
 )
 
 func main() {
+	var confFile = map[string]string{"feidan": "feidan.yml", "homey": "homey.yml"}
+	for k, v := range confFile {
+		fmt.Printf("%s:%s\n", k, v)
+	}
+
+	return
 	router := gin.Default()
 	// router.Static("/static", "./static")
 	router.StaticFS("/static", http.Dir("static"))
